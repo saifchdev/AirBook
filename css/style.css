@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+nav{
+
+}
+nav a{
+    text-align: center;
+    color:white;
+    text-decoration: none;
+}
+nav a :hover{
+    color:#111;
+    text-decoration: none;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+   
+
+}
+
+.logo-img{
+width: 100px;
+padding: 10px;
+
+
+
+}
+
+nav ul li:hover{
+
+
+    background-color: white;
+}
+
+#submit{
+    border-style: none;
+    background-color: #111;
+    width: 90px;
+    color: white;
+}
+
+
+
+h1{
+    font-size: 50px;
+}
+
+
+main{
+
+
+   
+}
+footer{
+    background-color:#25aac4;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+
+
+
+padding: 20px;
+
+
+}
+.text{
+    margin: 
+
+
+ 
+}
+
+
+
+ul {
+    background-color:#25aae2;
+padding: 10px;
+
+}
+.logo {
+   font-size: 40px;
+   padding-left: 20px;
+     text-align: center;
+   
+}
+img{
+    width: 600px;
+    
+}
+.card{
+padding: 50px;
+    background-image: url('../img/banner.jpg');
+    height: 300px;
+
+
+}
+.card img{
+border-radius: 50%;
+height: 300px;
+width: 300px;
+text-align: center;
+}
+
+.sidebar{
+border-left: solid #000 2px;
+max-height: 300px;
+background-color: #ccc;
+position: sticky;
+z-index: 90;
+
+
+
+
+
+}
+.btn2{
+    background: black;
+    color: white;
+    border: none;
+    box-shadow: #444;
+    width: 90px; 
+    border-radius: 20px;
+display: inline;
+
+
+}
+.view{
+    text-align: center;
+}
+th{
+    text-align: center;
+
+border-color: #111;
+border-width: 2px;
+border-style: solid;
+
+
+}
+table{
+    text-align: center;
+
+}
+td{
+    text-align: center;
+
+    border-color: #444;
+border-width: 1px;
+border-style: solid;
+}
+.content{
+padding: 30px;
+
+}
+#button{
+
+    color: white;
+    border: none;
+    background: #444;
+    min-width: 100px;
+
+}
+.top-bar a{
+
+padding: 10px;
+border-radius: 10
+
+
+}
+
+.top-bar{
+text-align: right;
+position: absolute;
+right: 0px;
+z-index: 99;
+list-style: none;
+
+margin: 20px;
+
+
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.dev-logo {
+    align-self: center;
+}
+
+.nav-links {
+    width: 50%;
+    justify-content: space-between;
+    display: none;
+}
+
+.nav-links ul {
+    width: 100%;
+    display: flex;
+}
+
+.nav-links ul li {
+    width: 25%;
+}
+
+.side-nav {
+    height: calc(100vh - 75px);
+    min-width: 250px;
+    max-width: 30%;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    background: #ccc;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.home-page-mid {
+    display: flex;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-container {
+    width: 20%;
+    margin: 10px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+
+}
+
+.product-container img {
+    width: 30%;
+
+
+}
+
+.product-footer {
+    height: 40px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.title-container {
+    width: 30%;
+}
+
+.product-title{
+font-size: 14px;
+
+}
+
+.product-price{
+font-size: 12px;
+background: #444;
+
+
+}
+
+table{
+
+    border: 20px;
+}
+td{
+    padding: 20px;
+}
+th{
+    padding: 20px;
+
+}
+{
+
+}
+
+h5{
+    display: inline;
+}
+
+@media(min-width: 1000px) {
+
+    .HAM {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+
+    .side-nav {
+        display: flex;
+    }
+
+    .product-container {
+        width: 33%;
+    }
+}
+
